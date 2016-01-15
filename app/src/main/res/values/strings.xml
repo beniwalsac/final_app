@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COP Registration</string>
+    <string name="action_settings">Settings</string>
+    <string name="team_name">Team Name</string>
+    <string name="next_button">Next</string>
+    <string name="player1_name">Name of first member</string>
+    <string name="player2_name">Name of second member</string>
+    <string name="player3_name">Name of third member</string>
+    <string name="number">Entry number</string>
+</resources>

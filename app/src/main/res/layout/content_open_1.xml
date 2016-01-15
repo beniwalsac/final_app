@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25ae29"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="aurora.copregistration.open_1"
+    tools:showIn="@layout/activity_open_1">
+
+    <EditText
+        android:id="@+id/team_name"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:background="#ffffff"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="@string/team_name"/>
+
+    <Button
+        android:id="@+id/next_button1"
+        android:layout_width="100dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/next_button"
+        android:background="#f43321"
+        android:textColor="#ffffff"
+        android:onClick="step2"/>
+</LinearLayout>
